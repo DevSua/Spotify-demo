@@ -1,0 +1,97 @@
+header{
+    background-color: black;   
+    position: relative;
+}
+div.top{
+  color: white;
+  position: absolute;
+  top: 35%;
+  left: 70%;
+}
+img.logo{
+    padding-left:100px;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+div.free{
+    background-color: #F46EBE;
+    padding:100px;
+    color :#202F72;
+    font-size : 20px;
+}
+    
+.button {
+  background: #202F72;
+  border-radius: 999px;
+  box-sizing: border-box;
+  color: #F46EBE;
+  cursor: pointer;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 15px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 15px 20px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+  word-break: break-word;
+  border: 0;
+  
+}
+div.wrapped{
+    background-color: #96F0B6;
+    padding:100px;
+    color :#202F72;
+    text-align: left;
+    font-size : 20px;
+}
+img.bodyimage{
+    float: right;
+    width: 900px;
+    height: 590px;
+    position: absolute;
+    top: 723.2px;
+    left:1150px;
+}
+footer{
+    background-color: black;
+    color: white;
+    padding: 50px;  
+    height: 500px;
+    
+}
+div.soso{
+  position: absolute;
+  top: 1350px;
+  left: 500px;
+    margin:10px;
+}
+div.company{
+    float:left;
+    margin:10px;
+}
+div.community{
+    float:left;
+    margin:10px;
+}
+ div.link{ 
+    float:left;
+    margin:10px;
+}  
+dd{
+    margin-left:0px;
+    margin-right:100px;
+    margin-top:10px;
+} 
+dt{
+    color: gray;
+}
+div.icon{
+    position: absolute;
+  top: 1350px;
+  right: 300px;
+    padding: 10px;
+}
