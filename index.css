@@ -6,20 +6,25 @@ a {
 a:hover {
   color: green;
 }
+h1 {
+  font-size: 60px;
+}
+h4 {
+  font-size: 20px;
+}
 header {
   background-color: black;
-  position: relative;
 }
-div.top {
-  position: absolute;
-  left: 50%;
-  top: 20px;
+div.navigation {
+  position: relative;
+  left: 1200px;
+  top: -45px;
 }
 img.logo {
   /*속성값을 하나로 묶고싶은데 그렇게되면
      right,left가 같은값으로 설정됨 
      padding: 10px 20px(왼오 같이) 30px;*/
-  padding-left: 500px;
+  padding-left: 470px;
   padding-top: 10px;
   padding-bottom: 10px;
 }
@@ -27,7 +32,7 @@ div.free {
   background-color: #f46ebe;
   color: #202f72;
   font-size: 20px;
-  padding: 100px;
+  padding: 80px;
   padding-left: 500px;
 }
 
@@ -51,20 +56,21 @@ div.free {
   word-break: break-word;
   border: 0;
 }
-div.wrapped {
+.wrapped {
   background-color: #96f0b6;
-  padding: 100px;
+  padding: 50px;
   padding-left: 500px;
   color: #202f72;
-  text-align: left;
   font-size: 20px;
+  position: relative;
 }
-img.bodyimage {
+
+.bodyimage {
   float: right;
   width: 900px;
-  height: 593px;
+  height: 700px;
   position: relative;
-  bottom: 100px;
+  bottom: 50px;
   left: 100px;
 }
 footer {
@@ -74,21 +80,21 @@ footer {
   padding-left: 3px;
   height: 500px;
 }
-div.soso {
+.soso {
   position: relative;
   bottom: 100px;
   left: 700px;
   margin: 10px;
 }
-div.company {
+.company {
   float: left;
   margin: 10px;
 }
-div.community {
+.community {
   float: left;
   margin: 10px;
 }
-div.link {
+.link {
   float: left;
   margin: 10px;
 }
@@ -108,31 +114,35 @@ div.icon {
 }
 /* icon에도 hover를 주고싶지만 이미지 통째로 붙여 
     넣은거라 hover가 백그라운드에서 작동하는듯 */
-span.copyright {
+.copyright {
   position: relative;
   top: 400px;
   right: 3px;
   color: gray;
 }
-span.info1 {
+.info1 {
   position: absolute;
   top: 400px;
   left: -230px;
   color: black;
 }
-span.info2 {
+.info2 {
   position: absolute;
   top: 400px;
   left: -130px;
   color: gray;
 }
-span.info3 {
+.info3 {
   position: absolute;
   top: 400px;
   left: -3px;
   color: gray;
 }
-.sapn.a {
-  color: gray;
+/*span에 들어있는 a태그 제어 
+  wrapped안에있는 a태그 제어*/
+.music {
+  margin-left: -23px;
 }
-/*span에 들어있는 a태그 제어 */
+.down {
+  margin-left: -30px;
+}
