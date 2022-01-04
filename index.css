@@ -1,8 +1,12 @@
+body {
+  margin: 0px;
+}
 a {
   text-decoration: none;
   color: white;
   padding: 20px;
 }
+
 a:hover {
   color: green;
 }
@@ -124,7 +128,10 @@ div.icon {
   position: absolute;
   top: 400px;
   left: -230px;
-  color: black;
+  color: white;
+}
+.info1:hover {
+  color: gray;
 }
 .info2 {
   position: absolute;
@@ -139,10 +146,17 @@ div.icon {
   color: gray;
 }
 /*span에 들어있는 a태그 제어 
-  wrapped안에있는 a태그 제어*/
+  wrapped안에있는 a태그 제어 class가 있을땐 . 
+  id 는 #으로 접근 ...*/
 .music {
   margin-left: -23px;
+  color: black; /*a가  상위태그라서 글자색이 안바뀜 */
+  text-decoration: underline;
 }
-.down {
+.music:link {
+  color: black;
+}
+/* visit하려면 내낙 a태그 제어 필요 */
+.download {
   margin-left: -30px;
 }
