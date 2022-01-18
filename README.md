@@ -3,8 +3,9 @@
 <h1>Spotify Demo입니다.</h1>
 원래사이트 -> https://www.spotify.com/kr-ko/
 
-<h2>STACK</h2>
+<h1>STACK</h1>
 HTML,CSS
+
 
 ![image](https://user-images.githubusercontent.com/49021626/148035364-68fdedb4-a644-41af-8275-915b2af2e6d6.png)
 ![image](https://user-images.githubusercontent.com/49021626/148035384-7bd2a020-c6d2-4e05-a1a0-ede72f144f45.png)
