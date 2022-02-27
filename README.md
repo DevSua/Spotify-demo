@@ -2,9 +2,11 @@
 
 <h1>Spotify Demo입니다.</h1>
 원래사이트 -> https://www.spotify.com/kr-ko/
+
 제작한 사이트 -> https://spotify-demo-ver.netlify.app/
 
 <h1>STACK</h1>
+
 HTML,CSS
 
 
